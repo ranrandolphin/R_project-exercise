@@ -143,7 +143,7 @@ legend("topright", legend = c("Low Risk", "Moderate Risk", "High Risk"), lty = 1
 lines(survexp( ~ level, ratetable=pre.lev5, data=valid.obslev5), lty = 2, col=1:3)
 legend("bottomright", legend = c("Observed", "Expected"), lty = 1:2, col = 1)
 
-######################### 我是华丽丽的分界线#####################
+##############################################
 set.seed(1)
 train.row <- sample(seq_len(nrow(recurrence)), size = 540) #set randomly selected 183 rows in training set
 
